@@ -25,31 +25,36 @@
 
 ## 使用方法
 ### 環境設置
-bash
+
 安裝必要套件
+```
+bash
 pip install -r requirements.txt
+```
 確保已安裝 Chrome 瀏覽器和對應版本的 WebDriver
 
 ### 執行程式
+```
 python
 python auto_login.py
-
-### 開發配置
+```
 1. 修改加密金鑰
 
-### 開發配置
-1. 修改加密金鑰
-python
+```python
 self.master_key = b"YOUR-SECRET-KEY" # 在 AutoLoginApp 類別中
+```
 
 2. 設定管理員密碼
-python
+```python
 self.admin_password = "YOUR-ADMIN-PASSWORD" # 在 AutoLoginApp 類別中
+```
 
 ### 打包執行檔
-bash
 使用 PyInstaller 打包
+```
+bash
 pyinstaller build_config.spec
+```
 ## 安全性說明
 ### 資料加密
 - 使用 AES-CBC 模式進行加密
