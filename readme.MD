@@ -1,7 +1,7 @@
 # 自動登入工具 (Auto Login Tool)
 
 ## 基本介紹
-這是一個使用 Python 開發的自動登入工具，主要用於教育系統的自動化登入。專案使用 PyQt6 建立圖形介面，並整合了 Selenium 進行網頁自動化操作。主要撰寫過程使用 ChatGPT 4o 和 VSCode 進行撰寫。感謝Cursor的幫助。
+這是一個使用 Python 開發的自動登入工具，主要用於網頁的自動化登入。專案使用 PyQt6 建立圖形介面，並整合了 Selenium 進行網頁自動化操作。主要撰寫過程使用 ChatGPT 4o 和 VSCode 進行撰寫。感謝Cursor的幫助。
 
 ### 主要依賴
 - Python 3.8+
